@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kelas Bu Klara</title>
+</head>
+<body>
+  <h1>Selamat datang!</h1>
+  <p>Website kelas IPA.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Misi Kelompok IPA 7 - Pemuaian Zat Padat</title>
+<style>
+:root{--navy:#17324d;--blue:#2675b9;--teal:#159a91;--gold:#f2b84b;--paper:#f4f8fc;--ink:#243447;--muted:#617286}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--paper);color:var(--ink);line-height:1.55}
+header{background:linear-gradient(120deg,#17324d,#2675b9);color:white;padding:34px 20px 28px}
+.wrap{max-width:1000px;margin:auto;padding:0 18px}
+.kicker{text-transform:uppercase;letter-spacing:2px;font-size:.78rem;font-weight:bold;color:#c9e7ff}
+h1{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;margin:8px 0}
+header p{max-width:700px;margin:10px 0 0;color:#e5f2ff}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:20px 0}
+.meta label{font-size:.9rem;font-weight:bold;color:var(--navy)}
+.meta input{display:block;width:100%;margin-top:5px;padding:11px;border:1px solid #cbd7e3;border-radius:9px;font:inherit;background:white}
+.intro,.question,.closing{background:white;border:1px solid #e0e8f0;border-radius:15px;padding:20px;margin:16px 0;box-shadow:0 4px 14px #17324d0a}
+.intro h2,.question h2{margin:0 0 8px;color:var(--navy)}
+.intro ul{margin:8px 0 0;padding-left:22px}
+.tag{display:inline-block;background:#e7f4ff;color:#17629c;border-radius:20px;padding:3px 10px;font-size:.78rem;font-weight:bold;margin-bottom:8px}
+.question{position:relative}
+.qhead{display:flex;gap:12px;align-items:flex-start}
+.num{flex:0 0 38px;height:38px;border-radius:12px;background:#e8f5f4;color:#087a73;display:grid;place-items:center;font-weight:bold;font-size:1.1rem}
+.question h2{font-size:1.12rem;margin:0 0 5px}
+.question p{margin:7px 0}
+.data{background:#f1f6fa;border-left:4px solid var(--teal);padding:10px 13px;border-radius:7px;margin:10px 0}
+.answer{width:100%;min-height:86px;resize:vertical;border:1px solid #cbd7e3;border-radius:9px;padding:11px;font:inherit;margin-top:8px}
+.answer:focus,.meta input:focus{outline:3px solid #b9e2ff;border-color:var(--blue)}
+.small{font-size:.9rem;color:var(--muted)}
+.formula{font-family:Georgia,serif;background:#fff8e8;border:1px solid #f5dfaa;border-radius:8px;padding:8px 12px;display:inline-block;margin:5px 0}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
+button{border:0;border-radius:9px;padding:11px 16px;font-weight:bold;font-size:.95rem;cursor:pointer}
+.primary{background:var(--blue);color:white}.secondary{background:#e5edf5;color:var(--navy)}
+footer{text-align:center;color:var(--muted);padding:18px;font-size:.85rem}
+@media print{body{background:white}.actions{display:none}.intro,.question,.closing{box-shadow:none;break-inside:avoid}header{background:#17324d!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.answer{min-height:75px}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <div class="kicker">Lembar Kerja Kelompok • IPA Kelas VII</div>
+  <h1>Misi Pemuaian Zat Padat</h1>
+  <p>Amati peristiwa, gunakan konsep, lakukan perhitungan, lalu diskusikan jawaban terbaik bersama kelompokmu!</p>
+ </div>
+</header>
+<main class="wrap">
+ <section class="meta">
+  <label>Nama kelompok<input type="text" placeholder="Contoh: Kelompok 1"></label>
+  <label>Anggota kelompok<input type="text" placeholder="Tuliskan nama anggota"></label>
+  <label>Kelas<input type="text" placeholder="Contoh: VII-A"></label>
+ </section>
+ <section class="intro">
+  <h2>Petunjuk Pengerjaan</h2>
+  <ul>
+   <li>Kerjakan seluruh 10 soal melalui diskusi kelompok.</li>
+   <li>Untuk soal hitungan, tuliskan diketahui, ditanya, rumus, langkah perhitungan, dan kesimpulan beserta satuannya.</li>
+   <li>Untuk soal analisis, sertakan alasan ilmiah. Jangan hanya menuliskan jawaban akhir.</li>
+   <li>Gunakan koefisien muai yang tercantum pada soal. Anggap perubahan suhu berlangsung merata.</li>
+  </ul>
+  <p class="small"><b>Pengingat rumus:</b></p>
+  <div class="formula">ΔL = L₀ × α × ΔT</div>
+  <div class="formula">ΔA = A₀ × β × ΔT</div>
+  <div class="formula">ΔV = V₀ × γ × ΔT</div>
+  <p class="small">Keterangan: ΔL, ΔA, ΔV = pertambahan ukuran; L₀, A₀, V₀ = ukuran awal; ΔT = perubahan suhu; α, β, γ = koefisien muai panjang, luas, dan volume.</p>
+ </section>
+
+ <section class="question">
+  <div class="qhead"><div class="num">1</div><div><span class="tag">Teori • Penerapan</span><h2>Mengapa rel kereta api diberi celah?</h2></div></div>
+  <p>Rel kereta api tersusun dari batang-batang logam yang dipasang berurutan. Di antara ujung dua batang rel biasanya terdapat celah kecil.</p>
+  <p><b>Pertanyaan:</b> Jelaskan mengapa celah tersebut diperlukan. Apa yang dapat terjadi jika rel dipasang rapat tanpa memperhitungkan pemuaian saat suhu lingkungan meningkat?</p>
+  <textarea class="answer" placeholder="Tuliskan hasil diskusi kelompok..."></textarea>
+ </section>
+
+ <section class="question">
+  <div class="qhead"><div class="num">2</div><div><span class="tag">Hitungan • Pemuaian panjang</span><h2>Kawat logam yang bertambah panjang</h2></div></div>
+  <p>Sebuah kawat baja memiliki panjang awal 5 m pada suhu 25°C. Kawat kemudian dipanaskan hingga suhunya menjadi 75°C. Koefisien muai panjang baja adalah 0,000012/°C.</p>
+  <div class="data"><b>Tentukan:</b> a) pertambahan panjang kawat, dan b) panjang akhir kawat setelah dipanaskan.</div>
+  <textarea class="answer" placeholder="Diketahui, ditanya, rumus, perhitungan, dan kesimpulan..."></textarea>
+ </section>
+
+ <section class="question">
+  <div class="qhead"><div class="num">3</div><div><span class="tag">Analisis • Perbandingan logam</span><h2>Dua logam, perubahan panjang berbeda</h2></div></div>
+  <p>Dua batang logam A dan B masing-masing memiliki panjang awal 2 m. Keduanya dipanaskan dengan kenaikan suhu yang sama, yaitu 50°C.</p>
+  <div class="data">Koefisien muai panjang logam A = 0,000010/°C<br>Koefisien muai panjang logam B = 0,000020/°C</div>
+  <p><b>Pertanyaan:</b> Logam manakah yang mengalami pertambahan panjang lebih besar? Hitung pertambahan panjang masing-masing logam, lalu jelaskan hubungan antara koefisien muai dan pertambahan panjang.</p>
+  <textarea class="answer" placeholder="Tuliskan perhitungan dan alasan..."></textarea>
+ </section>
+
+ <section class="question">
+  <div class="qhead"><div class="num">4</div><div><span class="tag">Hitungan • Pemuaian luas</span><h2>Pelat logam yang dipanaskan</h2></div></div>
+  <p>Sebuah pelat aluminium memiliki luas awal 2 m² pada suhu 20°C. Pelat dipanaskan hingga 120°C. Koefisien muai luas aluminium adalah 0,000046/°C.</p>
+  <p><b>Pertanyaan:</b> Hitung pertambahan luas pelat dan luas akhirnya setelah dipanaskan.</p>
+  <textarea class="answer" placeholder="Diketahui, ditanya, rumus, perhitungan, dan kesimpulan..."></textarea>
+ </section>
+
+ <section class="question">
+  <div class="qhead"><div class="num">5</div><div><span class="tag">Konsep • Penalaran</span><h2>Apakah lubang pada pelat ikut memuai?</h2></div></div>
+  <p>Sebuah pelat logam memiliki lubang berbentuk lingkaran di bagian tengahnya. Pelat tersebut dipanaskan secara merata.</p>
+  <p><b>Pertanyaan:</b> Apakah diameter lubang menjadi lebih besar, lebih kecil, atau tetap? Jelaskan dengan membayangkan bahwa lubang tersebut juga terbuat dari bahan pelat yang sama. Sertakan alasan berdasarkan konsep pemuaian.</p>
+  <textarea class="answer" placeholder="Tuliskan prediksi dan penjelasan ilmiah..."></textarea>
+ </section>
+
+ <section class="question">
+  <div class="qhead"><div class="num">6</div><div><span class="tag">Hitungan • Pemuaian volume</span><h2>Benda logam dalam ruang pemanas</h2></div></div>
+  <p>Sebuah benda padat dari logam memiliki volume awal 500 cm³ pada suhu 30°C. Benda dipanaskan hingga 130°C. Koefisien muai volume logam tersebut adalah 0,000060/°C.</p>
+  <p><b>Pertanyaan:</b> Hitung pertambahan volume dan volume akhir benda setelah dipanaskan.</p>
+  <textarea class="answer" placeholder="Diketahui, ditanya, rumus, perhitungan, dan kesimpulan..."></textarea>
+ </section>
+
+ <section class="question">
+  <div class="qhead"><div class="num">7</div><div><span class="tag">Analisis • Kehidupan sehari-hari</span><h2>Mengapa kabel listrik tampak lebih kendur?</h2></div></div>
+  <p>Pada siang hari yang panas, kabel listrik yang terbentang di antara dua tiang dapat terlihat lebih kendur dibandingkan pada pagi hari yang sejuk.</p>
+  <p><b>Pertanyaan:</b> Jelaskan hubungan perubahan suhu dengan panjang kabel. Mengapa pemasangan kabel tidak dibuat benar-benar tegang sejak awal? Gunakan konsep pemuaian dan penyusutan dalam jawabanmu.</p>
+  <textarea class="answer" placeholder="Tuliskan hasil analisis kelompok..."></textarea>
+ </section>
+
+ <section class="question">
+  <div class="qhead"><div class="num">8</div><div><span class="tag">Analisis • Keping bimetal</span><h2>Ke arah mana keping bimetal melengkung?</h2></div></div>
+  <p>Keping bimetal tersusun dari dua logam berbeda yang disatukan: logam P dan logam Q. Koefisien muai panjang logam P lebih besar daripada logam Q. Keping dipanaskan secara merata.</p>
+  <p><b>Pertanyaan:</b> Ke arah logam manakah keping bimetal melengkung? Jelaskan mengapa kedua logam menyebabkan keping membengkok, bukan tetap lurus.</p>
+  <textarea class="answer" placeholder="Tuliskan arah lengkungan dan alasannya..."></textarea>
+ </section>
+
+ <section class="question">
+  <div class="qhead"><div class="num">9</div><div><span class="tag">Penerapan • Teknologi</span><h2>Bimetal pada setrika listrik</h2></div></div>
+  <p>Beberapa setrika listrik menggunakan komponen pengatur suhu yang memanfaatkan keping bimetal. Ketika suhu setrika mencapai batas tertentu, hubungan listrik dapat terputus. Setelah suhu turun, hubungan listrik dapat tersambung kembali.</p>
+  <p><b>Pertanyaan:</b> Jelaskan bagaimana pemuaian dua logam pada keping bimetal dapat membantu mengatur suhu setrika secara otomatis. Mengapa penggunaan dua jenis logam diperlukan?</p>
+  <textarea class="answer" placeholder="Jelaskan prosesnya secara berurutan..."></textarea>
+ </section>
+
+ <section class="question">
+  <div class="qhead"><div class="num">10</div><div><span class="tag">Tantangan • Terpadu</span><h2>Rancangan batang logam untuk jembatan</h2></div></div>
+  <p>Sebuah batang baja yang digunakan sebagai bagian konstruksi memiliki panjang 8 m pada suhu 20°C. Pada siang hari, suhu batang dapat mencapai 50°C. Koefisien muai panjang baja adalah 0,000012/°C.</p>
+  <div class="data"><b>Tantangan kelompok:</b><br>
+  a) Hitung pertambahan panjang batang pada kondisi tersebut.<br>
+  b) Tentukan panjang akhir batang.<br>
+  c) Berdasarkan hasil perhitungan, jelaskan mengapa perancang jembatan perlu menyediakan ruang atau sambungan pemuaian pada bagian konstruksi tertentu.</div>
+  <p class="small">Pastikan jawaban bagian c menghubungkan hasil hitungan dengan keselamatan dan perubahan ukuran bahan.</p>
+  <textarea class="answer" placeholder="Tuliskan penyelesaian lengkap dan kesimpulan kelompok..."></textarea>
+ </section>
+
+ <section class="closing">
+  <h2>Refleksi Kelompok</h2>
+  <p>Setelah menyelesaikan seluruh soal, tuliskan satu contoh pemuaian zat padat yang pernah kalian amati dalam kehidupan sehari-hari dan jelaskan manfaat memahami peristiwa tersebut.</p>
+  <textarea class="answer" placeholder="Contoh yang kami temukan dan penjelasannya..." style="min-height:95px"></textarea>
+ </section>
+ <div class="actions">
+  <button class="primary" onclick="window.print()">Cetak / Simpan sebagai PDF</button>
+  <button class="secondary" onclick="document.querySelectorAll('input, textarea').forEach(e=>e.value='')">Kosongkan semua jawaban</button>
+ </div>
+</main>
+<footer>IPA Kelas VII • Pemuaian Zat Padat • Diskusikan, hitung, dan jelaskan dengan teliti.</footer>
+</body>
+</html>
